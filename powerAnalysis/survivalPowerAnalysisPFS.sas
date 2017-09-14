@@ -1,6 +1,6 @@
 
 *Macro to model candidate variables for model selection;
-%macro powerAnalysisPFS(controlMedPFS, treatMedPFS, accrual,followup, pow=0.8, alph=0.05, numSide=2);
+%macro powerAnalysisPFS(controlMedPFS, treatMedPFS, accrual,followup, pow=0.9, alph=0.05, numSide=2);
 
 * determine the number of subjects per group needed;
 proc power ;
